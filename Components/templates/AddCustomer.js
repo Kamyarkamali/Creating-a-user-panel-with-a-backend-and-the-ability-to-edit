@@ -11,6 +11,7 @@ function AddCustomer() {
         phone:"",
         address:"",
         date:"",
+        postalCode:"",
         products:[]
     })
 
