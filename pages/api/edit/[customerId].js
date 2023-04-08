@@ -10,7 +10,7 @@ export default async function handeler(req,res){
     }
 
     if(req.method==="PATCH"){
-        const id=req.query.userId
+        const id=req.query.customerId
         const data=req.body.data
         try{
             const customer=await Coustomer.findOne({_id:id})

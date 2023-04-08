@@ -22,6 +22,7 @@ function AddCustomer() {
             phone:"",
             address:"",
             date:"",
+            postalCode:"",
             products:[]
         })
         router.push("/")
