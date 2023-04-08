@@ -12,7 +12,6 @@ export default async function handeler(req,res){
 
     if(req.method==="DELETE"){
         const id=req.query.customerId
-        console.log(id)
         try{
             await Coustomer.deleteOne({_id:id})
             res.status(200).json({status:"Sucsses",message:"Deleted Data"})
